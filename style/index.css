@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.banner-head {
+    overflow: hidden;
+}
+
+.banner-ul {
+    display: flex;
+    width: 400%;
+    left: 0;
+    position: relative;
+    transition-duration: .3s;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+}
