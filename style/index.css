@@ -1,8 +1,20 @@
 @charset "utf-8";
+.banner {
+    position: relative;
+}
 
 .banner-head {
     overflow: hidden;
 }
+
+.banner-body {
+    position: absolute;
+    bottom: 1rem;
+    /* background-color: pink; */
+    text-align: center;
+    width: 100%;
+}
+
 
 .banner-ul {
     display: flex;
@@ -16,3 +28,22 @@
     max-width: 100%;
     height: auto;
 }
+
+.banner-btn {
+    text-indent: -9999px;
+    padding: 0;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner-btn:hover, .banner-btn-active  {
+    cursor: pointer;
+    background-color: orange;
+}
+
